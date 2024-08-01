@@ -3,6 +3,6 @@
 import typing
 
 
-def floor(n: float) -> float:
+def floor(n: float) -> int:
     """floor - function that return floor of n"""
-    return (n // 1)
+    return int((n // 1))
