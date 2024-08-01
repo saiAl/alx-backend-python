@@ -5,4 +5,4 @@ import typing
 
 def to_str(n: float) -> str:
     """that takes a float n as argument and returns the string"""
-    return f"{n},"
+    return str(n)
