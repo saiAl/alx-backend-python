@@ -2,9 +2,10 @@
 """ 0. The basics of async """
 import asyncio
 import random
+import typing
 
-
-async def wait_random(max_delay=10):
+async def wait_random(max_delay: int =10) -> float:
     """ asynchronous coroutine """
     return random.uniform(0, max_delay)
+ 
 
